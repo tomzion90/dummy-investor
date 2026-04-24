@@ -30,15 +30,15 @@ No paid ads until organic is converting.
 ## Completed
 
 - Content diagnosis written (`01_Strategy/Content Diagnosis - Apr 24.md`)
-- Book assessment completed (findings documented in this state + next diagnosis)
+- Book assessment completed (findings documented in this state)
 - Project operating system built (this folder)
 - Topic pipeline built (`02_Content/Topic Pipeline.md`) — 40+ topics organized into 6 pillars, with a recommended rotation for the next 6 Reels
 - Master Timeline built (`_Operations/Master Timeline.md`) — 4 phases, 20 weeks, from content reset to course launch
-- Local git repo initialized with `.gitignore` + first commit (see `_Operations/Git Setup.md` for next steps to publish to GitHub)
-- Email automation options documented (`_Operations/Email Automation.md`) — approved-script emails stay manual for now
-- Root `README.md` added to repo home page
 - Session closure protocol + commit message rule added to `Agents/00 - How Agents Work.md`
-- GitHub repo live at https://github.com/tomzion90/dummy-investor (private)
+- Approved-script emails stay manual for now (see `_Operations/Email Automation.md`)
+- **GitHub repo live** at https://github.com/tomzion90/dummy-investor (private)
+- **Git workflow active:** proper `.gitignore` (excludes large binary folders), SourceTree + PAT with `workflow` scope, clean push path
+- **Push email automation LIVE:** `.github/workflows/notify-on-push.yml` sends email to `tomezion@gmail.com` and `Yuvalvul60@gmail.com` on every push to `main`. Email includes commit message + project status snapshot from this file. Verified working.
 
 ## Blocked
 
@@ -58,12 +58,14 @@ Targets for next 30 days: avg views 250+, new followers 30+, link taps 15+, one 
 
 ## Next session
 
-**What to say to start:** "let's set the brand foundations" (or anything similar).
+**Setup is complete. Phase 1 starts now.**
 
-**What I will do:** Play Content Strategist. Write the Brand Bible and the Hook Library from scratch. These are foundational — every future Reel session depends on them.
+**What to say to start:** just type **"שלום"** (or "hi" / "what's next") in a fresh chat.
 
-**Expected outputs:**
+**What I will do:** read this file, then show you the active menu. Right now the #1 option on that menu will be: **"Set the brand foundations — Brand Bible + Hook Library."** Pick that option and we start the Content Strategist session.
+
+**What that first real session produces:**
 - `01_Strategy/Brand Bible.md` (voice, tone, 3 content pillars, DO/DON'T list, forbidden words, viewer persona)
 - `02_Content/Hook Library.md` (10 reusable hook patterns with examples)
 
-**What comes after:** A first Reel production session using the new system. You'll just say "let's make a reel" and I'll route from there.
+**What comes after Brand Bible:** your first Reel produced in the new system. Just say "let's make a reel" next and I'll route.
