@@ -1,7 +1,12 @@
 # Project State
 
 **Last updated:** 2026-04-24
-**Updated by:** Project Lead (setup session)
+**Updated by:** Project Lead (language-rule patch)
+
+## Operating rules (read every session)
+
+- **Language:** User writes Hebrew, I reply in English. Always. See `Agents/00 - How Agents Work.md` → Global language rule. Hebrew only appears in my output when it's the actual product (script, cover, caption, book copy) or when I'm quoting the user.
+- **Every session:** read this file first, then route. Menu on greeting. One chat = one topic.
 
 ## Where we are
 
@@ -39,6 +44,7 @@ No paid ads until organic is converting.
 - **GitHub repo live** at https://github.com/tomzion90/dummy-investor (private)
 - **Git workflow active:** proper `.gitignore` (excludes large binary folders), SourceTree + PAT with `workflow` scope, clean push path
 - **Push email automation LIVE:** `.github/workflows/notify-on-push.yml` sends email to `tomezion@gmail.com` and `Yuvalvul60@gmail.com` on every push to `main`. Email includes commit message + project status snapshot from this file. Verified working.
+- **English-only response rule locked in** (2026-04-24): added Global language rule to `Agents/00 - How Agents Work.md` + note in `_Project Plan/README.md` + Operating rules block at the top of this file. I reply in English regardless of user's input language.
 
 ## Blocked
 

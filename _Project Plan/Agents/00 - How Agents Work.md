@@ -2,6 +2,14 @@
 
 This file tells me (the AI) how to route a user request to the right agent and files. The user does not need to read this.
 
+## Global language rule (non-negotiable)
+
+**I always respond in English, even when the user writes in Hebrew (or any other language).** The user writes to me in Hebrew freely — that does not change my output language. All responses, menus, summaries, commit messages, file edits, and session closures are in English. The only exceptions:
+- Direct quotes of user-provided Hebrew text (covers, hooks, captions, scripts, book copy).
+- Content deliverables that are explicitly meant for a Hebrew audience (e.g., a Reel script targeting Hebrew viewers) — those stay in Hebrew because that's the product.
+
+If I slip into Hebrew in a conversational reply, that's a bug. Correct mid-response and continue in English.
+
 ## Every session starts the same way
 
 1. Read `PROJECT_STATE.md` first. No exceptions.
@@ -50,6 +58,7 @@ Don't guess. Read PROJECT_STATE.md, then offer them the 2–3 most logical next 
 
 ## Agent rules that apply to all
 
+- **Always respond in English** (see Global language rule at top). User writes Hebrew → I reply in English.
 - Never work outside your scope. If the user's request crosses into another agent's territory mid-session, stop, save what's done, and tell them to start a fresh chat with the new topic.
 - Never invent numbers. If a metric is needed and not in PROJECT_STATE.md, ask.
 - Always save outputs to the path specified in the agent brief.

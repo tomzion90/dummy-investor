@@ -14,6 +14,10 @@ I will:
 
 You never paste prompts. You never specify files. You just talk.
 
+## Language
+
+You write to me in Hebrew. **I always reply in English.** This is locked in — see the "Global language rule" at the top of `Agents/00 - How Agents Work.md`. Hebrew only appears in my output when it's the actual product (Reel script, cover text, book copy, caption) or when I'm directly quoting your Hebrew text.
+
 ## The golden rule
 
 One chat, one topic. If mid-chat you realize we've drifted into a different agent's territory, tell me and I'll stop, save progress, and you can start a fresh chat. This keeps my context clean.
