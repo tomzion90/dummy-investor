@@ -2,7 +2,17 @@
 .DS_Store
 **/.DS_Store
 
-# Big binary assets we don't version
+# Large binary working folders — keep these in local/cloud storage, not git.
+# Git is for text/docs/code; these folders contain multi-GB working assets.
+Avatar/
+Assets/
+Book/
+Course/
+Videos/
+Music/
+Sound Effects/
+
+# Any large media anywhere else in the repo
 *.mp4
 *.mov
 *.MP4
@@ -12,16 +22,17 @@
 *.aif
 *.aiff
 *.m4a
-
-# Book pages — huge PNGs, not worth versioning
-Book/Toms First Million/*.png
+*.pdf
+*.zip
 
 # Test/scratch files
 Test 1.mp4
 
-# Local config
+# Local config and secrets
 .env
 .env.local
+*.key
+*.pem
 
 # Editor junk
 .vscode/

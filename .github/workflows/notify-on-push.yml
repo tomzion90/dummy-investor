@@ -1,0 +1,57 @@
+name: Notify on push to main
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Extract project status summary
+        id: status
+        shell: bash
+        run: |
+          STATE_FILE="_Project Plan/PROJECT_STATE.md"
+          {
+            echo 'summary<<__EOF__'
+            if [ -f "$STATE_FILE" ]; then
+              echo "--- Active priorities ---"
+              awk '/^## Active priorities/{f=1; next} /^## /{f=0} f' "$STATE_FILE"
+              echo ""
+              echo "--- Next session ---"
+              awk '/^## Next session/{f=1; next} /^## /{f=0} f' "$STATE_FILE"
+            else
+              echo "(PROJECT_STATE.md not found)"
+            fi
+            echo '__EOF__'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Send email notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[dummy-investor] ${{ github.event.head_commit.message }}"
+          from: Dummy Investor <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          body: |
+            New push to main by ${{ github.event.head_commit.author.name }}.
+
+            Commit message:
+            ${{ github.event.head_commit.message }}
+
+            Commit:  ${{ github.event.head_commit.id }}
+            Repo:    https://github.com/tomzion90/dummy-investor
+            URL:     ${{ github.event.head_commit.url }}
+
+            ──────────────────────────────────────────────
+            Project status (extracted from PROJECT_STATE.md):
+            ──────────────────────────────────────────────
+            ${{ steps.status.outputs.summary }}

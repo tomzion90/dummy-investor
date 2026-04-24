@@ -33,6 +33,12 @@ No paid ads until organic is converting.
 - Book assessment completed (findings documented in this state + next diagnosis)
 - Project operating system built (this folder)
 - Topic pipeline built (`02_Content/Topic Pipeline.md`) — 40+ topics organized into 6 pillars, with a recommended rotation for the next 6 Reels
+- Master Timeline built (`_Operations/Master Timeline.md`) — 4 phases, 20 weeks, from content reset to course launch
+- Local git repo initialized with `.gitignore` + first commit (see `_Operations/Git Setup.md` for next steps to publish to GitHub)
+- Email automation options documented (`_Operations/Email Automation.md`) — approved-script emails stay manual for now
+- Root `README.md` added to repo home page
+- Session closure protocol + commit message rule added to `Agents/00 - How Agents Work.md`
+- GitHub repo live at https://github.com/tomzion90/dummy-investor (private)
 
 ## Blocked
 

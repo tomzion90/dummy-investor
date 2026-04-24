@@ -1,69 +1,72 @@
 # Email Automation — Approved Scripts + Git Push Notifications
 
-The honest starting point: I don't have a built-in email tool. I don't have a Gmail/Outlook/SMTP connector in this environment. Any automated email goes through something external. Here are the options, ranked by how much friction they cause you.
+## Script-approved emails — MANUAL (decision locked)
+
+When a script is approved in chat, I output the full email ready for copy-paste into Gmail — subject, body, recipient list. You send it manually. Revisit automation after ~4 weeks once the process is validated.
 
 ---
 
-## For "approved script → email to a group"
+## Git push notifications — GitHub Actions + Gmail SMTP (LIVE)
 
-### Option A — Manual for now (recommended for Phase 1)
-When you approve a script in chat, I output the full email — subject, body, recipient list — ready to copy-paste into Gmail and send. Zero setup. Zero cost. Takes you 30 seconds per email.
+**Workflow file:** `.github/workflows/notify-on-push.yml`
 
-**Why I recommend this to start:** you're 4–6 weeks from needing real automation. Building automation for 3 scripts/week while the content engine is still being fixed is over-engineering. Do it manually, see if the workflow is even useful, then automate.
+**What it does:** On every push to `main`, sends an email to the recipients defined in the `MAIL_TO` secret:
+- `tomezion@gmail.com`
+- `Yuvalvul60@gmail.com`
 
-### Option B — Google Apps Script (when you're ready to automate)
-Free. Runs inside your Gmail. A 40-line script triggered by a specific folder or label.
-- Cost: 0
-- Setup time: ~1 hour, one-time
-- Needs: your Gmail account and one config file
-- I can write the script when you're ready
+Recipients are stored as a secret (not hardcoded) so changing the list doesn't require a commit — just update the secret in GitHub settings.
 
-### Option C — Resend.com + local script
-Free up to 100 emails/day. More professional (sender address like `scripts@dummyinvestor.com`).
-- Cost: free tier covers your needs; custom domain optional
-- Setup time: ~1.5 hours, one-time
-- Needs: Resend account, API key, one Python script I write
+Email contains: commit message, commit hash, author, repo URL, plus the "Active priorities" and "Next session" sections from `PROJECT_STATE.md` as a status snapshot.
 
-### Option D — Zapier or Make.com
-Point-and-click. Expensive for what you need.
-- Cost: $20–30/month
-- Setup time: 30 minutes
-- Not recommended — you don't need this level yet
+### Setup — 3 steps, ~5 minutes
 
-**My recommendation:** start with Option A, move to Option B in ~4 weeks when you know the process is actually serving you.
+#### Step 1 — Generate a Gmail app password
 
----
+This is the password GitHub uses to send email AS `yutomshazion@gmail.com`. It's not your Gmail login password — it's a 16-character code just for this.
 
-## For "git push → email notification"
+1. Go to https://myaccount.google.com/security
+2. Confirm **2-Step Verification** is ON. If not, enable it first (required for app passwords).
+3. Go to https://myaccount.google.com/apppasswords
+4. "App name" → type `GitHub Actions Dummy Investor`, click **Create**.
+5. Google shows a 16-character code like `abcd efgh ijkl mnop`. **Copy it now.** You can't view it again later.
 
-### Option A — GitHub's built-in notifications (recommended)
-Zero setup. GitHub emails you on every push automatically if you "Watch" your own repo with "All Activity."
+#### Step 2 — Add three secrets to the GitHub repo
 
-How:
-1. After you publish the repo, go to it on GitHub.com.
-2. Click the "Watch" dropdown at the top-right.
-3. Choose **Custom → check All Activity → Apply**.
-4. Confirm your email preferences at https://github.com/settings/notifications — make sure "Email" is enabled for "Participating, @mentions, and custom."
+1. Open https://github.com/tomzion90/dummy-investor/settings/secrets/actions
+2. Click **New repository secret**. Add:
+   - **Name:** `MAIL_USERNAME`
+   - **Value:** `yutomshazion@gmail.com`
+   - Click **Add secret**.
+3. Click **New repository secret** again. Add:
+   - **Name:** `MAIL_PASSWORD`
+   - **Value:** the 16-character code from Step 1 (paste without spaces)
+   - Click **Add secret**.
+4. Click **New repository secret** one more time. Add:
+   - **Name:** `MAIL_TO`
+   - **Value:** `tomezion@gmail.com, Yuvalvul60@gmail.com` (comma-separated, add/remove addresses here anytime without touching the workflow file)
+   - Click **Add secret**.
 
-You'll now get an email for every push, issue, comment, PR. Including your own pushes.
+#### Step 3 — Push
 
-### Option B — GitHub Actions workflow for custom emails
-If you want emails sent to **other people** (not just you) with a custom subject/body.
-- Cost: free on GitHub Actions for private repos up to 2000 min/month
-- Setup: one YAML file in `.github/workflows/` + a secret with an email service API key
-- I can write this when you're ready
+Push the workflow file. On the next push to `main`, GitHub Actions runs the workflow and the email lands in your inbox within 1–2 minutes.
 
-**My recommendation:** Option A for now. It's built in, it works, it covers you. If you later want "email the team when I push," upgrade to Option B.
+### Verifying it works
 
----
+- After your next push, open https://github.com/tomzion90/dummy-investor/actions
+- You'll see a workflow run called "Notify on push to main".
+- Click into it to see the logs. If the email step fails, it'll say why (usually: wrong password, 2FA not enabled, or secret name typo).
 
-## Decision I need from you
+### Changing the recipient list
 
-Before the next session:
+Edit the `MAIL_TO` secret at https://github.com/tomzion90/dummy-investor/settings/secrets/actions. No commit or push needed — the change takes effect on the next push.
 
-1. For script emails: **"manual for now" (Option A) or "automate now" (Option B/C)?**
-2. If automate: which option (B = Gmail Apps Script, C = Resend)?
-3. Who's on the recipient list for approved-script emails? Your email, plus who else?
-4. For git push notifications: **built-in GitHub watch (Option A) or custom (Option B)?**
+### Common issues
 
-Once you pick, I'll either write the automation or note "manual path, will revisit in 4 weeks" and we move on.
+- **Email never arrives:** check spam folder, then check the Actions tab logs.
+- **"Invalid login" error:** app password is wrong or 2FA isn't enabled on the sender account.
+- **"Recipient refused":** a recipient email is mistyped.
+- **Hebrew characters garbled:** the workflow uses UTF-8 so they should render. If not, paste the problem commit message and I'll fix encoding.
+
+### Turning it off temporarily
+
+Rename the file to `notify-on-push.yml.disabled`, commit, push. Rename back to re-enable.

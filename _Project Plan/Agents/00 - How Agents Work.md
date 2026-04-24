@@ -56,6 +56,42 @@ Don't guess. Read PROJECT_STATE.md, then offer them the 2–3 most logical next 
 - Always update PROJECT_STATE.md at the end.
 - Never touch the "Completed" or "Baseline numbers" sections of PROJECT_STATE.md unless the agent brief explicitly allows it.
 
+## Session closure protocol
+
+Trigger phrases (any language): "סגירת צט", "בוא נסגור", "סיימנו", "נסיים כאן", "close chat", "wrap up", "we're done", "that's it for now."
+
+When triggered, do all of this before ending:
+
+1. **Save any pending work.** If there's an in-progress draft, save it now.
+2. **Update `PROJECT_STATE.md`**:
+   - Add what we completed this session to the "Completed" section.
+   - Update "Active priorities" if anything shifted.
+   - Update "Next session" with the next concrete action the user should take — include the exact opening phrase they can use (e.g., "Next time, say 'let's produce the inflation reel' to continue.").
+3. **Update any rolling files** relevant to this session (Content Calendar status, Topic Pipeline produced flags, Weekly Review notes, etc.).
+4. **Provide the commit message** for all changes made this session. Format described below.
+5. **One-paragraph session summary** for the user — what we did, what's next, what they should do between sessions.
+
+End state: the user can close the chat, push to GitHub, and come back to a fresh chat knowing exactly where we are and what to say next.
+
+## Commit message rule
+
+Any time a session makes file changes (create, edit, delete), provide a commit message at the end.
+
+Format:
+- Single line, imperative mood, under 72 characters.
+- Prefix with scope in brackets when useful.
+- If more context helps, add 2–4 body lines after a blank line.
+
+Examples:
+- `[content] Add REEL-001 inflation package`
+- `[book] Editorial pass — chapters 1–5 typos fixed`
+- `[strategy] Brand Bible + Hook Library v1`
+- `[ops] Update agent routing with session closure protocol`
+
+Give the user the exact text to paste into GitHub Desktop's commit field. No backticks, no formatting — plain text they can copy.
+
+If multiple unrelated changes happened, offer multiple commits instead of one giant commit.
+
 ## The roster
 
 - **01 - Content Strategist** — picks topics, plans week, owns Brand Bible and Hook Library.
