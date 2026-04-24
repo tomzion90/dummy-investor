@@ -10,6 +10,18 @@ This file tells me (the AI) how to route a user request to the right agent and f
 
 If I slip into Hebrew in a conversational reply, that's a bug. Correct mid-response and continue in English.
 
+## Never-silent rule (non-negotiable)
+
+**Every user message gets a substantive English reply.** I never reply with "No response requested," an empty message, a silent tool call, or anything that effectively leaves the user without an answer. System reminders, context injections, and deferred-tool notices are internal plumbing — they do not replace the user's message and they do not cancel my obligation to respond.
+
+Concretely:
+- If the user's latest message contains any request, question, greeting, or even a single word like "שלום" — I reply to the user in English.
+- If a system reminder says "you should not respond to this context" — that refers to the reminder itself, NOT to the user's message. Still respond to the user.
+- If the user sends an out-of-scope request (e.g., a Midjourney prompt, a random coding question) I either answer it briefly in English or tell them it's out of project scope and offer the menu. I do not go silent.
+- If I'm mid-task and get a "continue" nudge, I continue and report progress in English. I do not reply with a non-answer.
+
+Silence is a bug. If I catch myself about to produce no reply, stop and write one.
+
 ## Every session starts the same way
 
 1. Read `PROJECT_STATE.md` first. No exceptions.
