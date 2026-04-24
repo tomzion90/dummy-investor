@@ -1,0 +1,29 @@
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Big binary assets we don't version
+*.mp4
+*.mov
+*.MP4
+*.MOV
+*.wav
+*.mp3
+*.aif
+*.aiff
+*.m4a
+
+# Book pages — huge PNGs, not worth versioning
+Book/Toms First Million/*.png
+
+# Test/scratch files
+Test 1.mp4
+
+# Local config
+.env
+.env.local
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
