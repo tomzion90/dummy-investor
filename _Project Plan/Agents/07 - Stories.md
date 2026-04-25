@@ -54,8 +54,9 @@ Inside it:
 
 1. Draft the Story file in `02_Content/Stories/`.
 2. Show it to the user for approval.
-3. After user approves: upload the Story file to Drive `STORIES` folder (id `1vy4peyv8Bbil84x4OjxNKHNFz8YpbMrn`) as a Google Doc.
-4. Append one row to `02_Content/Stories/_archive-log.md`.
+3. After user approves: upload to Drive `STORIES` folder (id `1vy4peyv8Bbil84x4OjxNKHNFz8YpbMrn`) as a native Google Doc — `create_file` with `mimeType: text/plain` and base64-encoded markdown body (Drive auto-converts).
+4. Create a Gmail draft using the template at `_Operations/Editor Notification Template.md` — subject `Story uploaded to Drive`, body opens with `Hi Yuval`, short content + Doc link. Tom reviews + sends from his inbox.
+5. Append one row to `02_Content/Stories/_archive-log.md`.
 
 ## Quality bar (before showing to user)
 

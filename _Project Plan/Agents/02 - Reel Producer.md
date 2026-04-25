@@ -84,9 +84,10 @@ Topic ID, pillar (1–3), Brand Bible format (A/B/C), cover style (A/B/C), CTA t
 
 1. Draft both files in `02_Content/Reels/REEL-###-*/`.
 2. Show the user the shoot sheet for approval.
-3. After user approves: upload `REEL-###-shoot-sheet.md` content to Drive **REELS** folder (id `1Pg_YKd0ZndiwVCVBzV27-C3Gk7yv4QqK`) as a native Google Doc via Drive MCP `create_file` with mimeType `application/vnd.google-apps.document` (text content as base64 — small text doc, not the heavy .docx round-trip).
-4. Append one row to `02_Content/Reels/_archive-log.md`.
-5. Mark topic as "✅ Produced — REEL-### (date)" in `Topic Pipeline.md`.
+3. After user approves: upload `REEL-###-shoot-sheet.md` content to Drive **REELS** folder (id `1Pg_YKd0ZndiwVCVBzV27-C3Gk7yv4QqK`) as a native Google Doc — `create_file` with `mimeType: text/plain` and base64-encoded markdown body (Drive auto-converts to native Google Doc on upload).
+4. Create a Gmail draft using the template at `_Operations/Editor Notification Template.md` — subject `Reel "[Topic Name]" uploaded to Drive`, body opens with `Hi Yuval`, short content + Doc link. Tom reviews + sends from his inbox.
+5. Append one row to `02_Content/Reels/_archive-log.md`.
+6. Mark topic as "✅ Produced — REEL-### (date)" in `Topic Pipeline.md`.
 
 ## Quality bar (before showing user)
 
