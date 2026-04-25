@@ -1,7 +1,7 @@
 # Project State
 
 **Last updated:** 2026-04-25
-**Updated by:** DNA v2 session — Brand Bible v1.2 (specificity-first), Stories agent (07), locked operating agreements, REEL-001 paused pending v1.2 rewrite decision
+**Updated by:** DNA v2 session closed — Brand Bible v1.2, Stories agent (07), Drive REELS+STORIES, Gmail draft pipeline verified end-to-end, REEL-001 v1.1 deleted, locked operating agreements
 
 ## Operating rules (read every session)
 
@@ -61,7 +61,9 @@ No paid ads until organic is converting.
 - **Drive REELS folder live** (2026-04-25): `1Pg_YKd0ZndiwVCVBzV27-C3Gk7yv4QqK` inside the user's "Dummy Investor" Drive folder. Future Reel shoot sheets upload here as native Google Docs after user approval (no .docx round-trip — Drive MCP `create_file` with `application/vnd.google-apps.document` mimeType).
 - **Operating agreements locked** (2026-04-25): added rules #5 (ignore stale profile-field content) and #6 (locked agreements: efficiency-first, no Drive deletes without OK, approval-then-save, doc trimming, no binary uploads via Drive MCP) to CLAUDE.md. Also competitive research synthesis: PFC's primary format is static infographics not talking-head Reels; Humphrey Yang's hit format is physical demonstrations of money; every winning long-term-investing Reel uses one specific person / number / year — not "most people." Engagement benchmark for accounts under 50K is 3–8% (we are at ~0.6%, signal that hooks aren't engaging).
 - **Drive upload pipeline verified** (2026-04-25): tested native Google Doc creation in both REELS and STORIES folders. Path works: `create_file` with `mimeType: text/plain` + base64-encoded markdown → Drive auto-converts to a native Google Doc. Test files were created in both folders and confirmed by user. Tom deletes test files manually (Drive MCP has no delete tool).
-- **Editor notification template + email draft flow** (2026-04-25): added `_Operations/Editor Notification Template.md` locking the subject lines (`Reel "[name]" uploaded to Drive` / `Story uploaded to Drive`) and bodies (open with `Hi Yuval`, short, Doc link). Reel Producer (02) and Stories (07) briefs updated to include "create Gmail draft after upload" as step 4 of the approval-then-save flow. Gmail MCP only DRAFTS — Tom sends from his inbox. The existing GitHub push-email automation stays in place as a second channel (audit trail). Gmail connector suggested to user; once connected, future Reels/Stories will produce drafts automatically.
+- **Editor notification template + email draft flow** (2026-04-25): added `_Operations/Editor Notification Template.md` locking the subject lines (`Reel "[name]" uploaded to Drive` / `Story uploaded to Drive`) and bodies (open with `Hi Yuval`, short, Doc link). Reel Producer (02) and Stories (07) briefs updated to include "create Gmail draft after upload" as step 4 of the approval-then-save flow. Gmail MCP only DRAFTS — Tom sends from his inbox. The existing GitHub push-email automation stays in place as a second channel (audit trail).
+- **Gmail draft pipeline verified end-to-end** (2026-04-25): Gmail connector connected (account: `yutomshazion@gmail.com`). Two test drafts created — one for a Reel, one for a Story — using the locked template. Tom confirmed both appear in Gmail Drafts folder. Pipeline ready: future Reels/Stories will auto-generate drafts after Drive upload, Tom reviews + sends.
+- **Pending manual cleanup** (2026-04-25): two test files still sit in Drive — `TEST — DNA v2 pipeline check (REELS)` and `TEST — DNA v2 pipeline check (STORIES)`. Drive MCP has no delete tool. Tom deletes manually next time he's in Drive (right-click → Move to trash).
 
 ## Blocked
 
