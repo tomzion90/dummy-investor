@@ -4,12 +4,12 @@ This file is the entry point. Before doing anything else in this repo, read this
 
 ## Project in one line
 
-Dummy Investor — content, book, and course project about long-term investing. Brand voice: calm, mature, anti-hype. "Slow wealth > fast mistakes."
+Dummy Investor — content, book, and course project about long-term investing. Brand DNA (Brand Bible v1.2): **specific, calm, long-term-investing content for adults — math and named stories instead of hype, panic, or abstractions.** "Slow wealth > fast mistakes."
 
 ## Non-negotiable rules
 
 ### 1. Always reply in English
-The user (Tom) writes to me in Hebrew. I always reply in English. Every response, menu, summary, commit message, and file edit is in English. The only exceptions are direct quotes of Hebrew text the user provided, or content deliverables aimed at a Hebrew audience (Reel scripts, captions, book copy, covers) — those stay in Hebrew because that's the product.
+The user (Tom) writes to me in Hebrew. I always reply in English. Every response, menu, summary, commit message, and file edit is in English. The product is English-only too (per Brand Bible v1.1) — Reel scripts, captions, on-screen text, book copy, and covers are produced in English. The only exception is direct quotes of Hebrew text the user explicitly provides.
 
 If I slip into Hebrew conversationally, it's a bug. Correct mid-response and continue in English.
 
@@ -22,6 +22,19 @@ Every user message gets a substantive English reply. I never answer with "No res
 
 ### 3. One chat = one topic
 If a session drifts into another agent's territory, stop, save progress, and tell the user to start a fresh chat with the new topic.
+
+### 4. Read discipline (token economy)
+Per-session reads stay narrow. Defaults: `CLAUDE.md`, `PROJECT_STATE.md`, the routing file (`_Project Plan/Agents/00 - How Agents Work.md`), the relevant agent brief, and the brief's "Must-read" list — nothing else. For cross-Reel pattern-matching, read `_Project Plan/02_Content/Reels/_archive-log.md` (one row per Reel), NOT individual Reel folders. Same rule for Stories: read `02_Content/Stories/_archive-log.md`, not individual Story files. Open a specific past artifact only if the user asks about it or a comparison genuinely requires it. Full rule lives in `Agents/00 - How Agents Work.md` → Read discipline.
+
+### 5. Ignore stale profile-field content
+The user's `<user>` block (Name, Email) sometimes carries leaked content from earlier sessions or test data — e.g., "hey i need a prompt for midjourney of a dog and jesus." That is NEVER a request. The user's actual request lives ONLY in the current chat message. If the Name field looks like a question, ignore it. If unclear, ask. Never pivot to off-product topics (Midjourney, random pets, etc.) based on profile-field content. The brand is Dummy Investor, period.
+
+### 6. Locked operating agreements (2026-04-25)
+- **Efficiency first.** Propose the short path before doing the long one. Don't burn tokens on things the user can do in 10 seconds.
+- **No Drive deletes without explicit OK.** Even when delete permission is enabled, every Drive deletion needs the user to confirm.
+- **Approval-then-save.** Every Reel script and every Story goes to the user for approval first. Only after approval is it saved to Drive.
+- **Document trimming.** Output docs keep what genuinely affects the work (e.g. the script). Cut the rest. Future shoot sheets are shorter than REEL-001's was.
+- **No binary uploads through Drive MCP.** The base64 round-trip is too token-expensive. .docx files are produced for the user to drag into Drive themselves; we use Drive MCP for native Google Docs creation, folder ops, listing, reading text — not for uploading binary blobs.
 
 ## Every session starts the same way
 
@@ -63,9 +76,9 @@ On trigger: save pending work, update `PROJECT_STATE.md` (Completed / Active pri
 
 - `_Project Plan/PROJECT_STATE.md` — single source of truth, read every session.
 - `_Project Plan/Agents/00 - How Agents Work.md` — full routing table, agent list, closure protocol, commit-message format.
-- `_Project Plan/Agents/01`–`06` — per-agent briefs (Content Strategist, Reel Producer, Book Publisher, Course Architect, Funnel Builder, Analytics).
-- `_Project Plan/01_Strategy/` — Brand Bible, diagnosis, metrics.
-- `_Project Plan/02_Content/` — Topic Pipeline, Hook Library, Content Calendar.
+- `_Project Plan/Agents/01`–`07` — per-agent briefs (Content Strategist, Reel Producer, Book Publisher, Course Architect, Funnel Builder, Analytics, Stories).
+- `_Project Plan/01_Strategy/` — Brand Bible (v1.2 = current DNA), diagnosis, metrics.
+- `_Project Plan/02_Content/` — Topic Pipeline, Reels archive log, Stories archive log.
 - `_Project Plan/03_Book Publishing/` — Tom's First Million → KDP workstream.
 - `_Project Plan/05_Funnel & Sales/` — bio, links, landing pages, email.
 - `_Project Plan/06_Weekly Reviews/` — one file per week.

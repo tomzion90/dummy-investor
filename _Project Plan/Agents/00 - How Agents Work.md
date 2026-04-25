@@ -56,12 +56,13 @@ Wait for them to pick. Then route.
 
 | User says something like… | Agent | Read also |
 |---|---|---|
-| "plan next week", "pick topics", "what should I post", "brand voice", "pillars" | Content Strategist (`01`) | Brand Bible, Hook Library, latest weekly review |
-| "make a reel", "write a script", "produce content about X", "new video" | Reel Producer (`02`) | Brand Bible, Hook Library, Content Calendar, current bio CTA, last 2 reel folders |
-| "book", "Tom's First Million", "KDP", "cover brief", "book listing" | Book Publisher (`03`) | Brand Bible, existing book files, prior book passes |
+| "plan next week", "pick topics", "what should I post", "brand voice", "pillars" | Content Strategist (`01`) | Brand Bible v1.2, Topic Pipeline, latest weekly review |
+| "make a reel", "write a script", "produce content about X", "new video" | Reel Producer (`02`) | Brand Bible v1.2, Topic Pipeline, Reels archive log |
+| "book", "Tom's First Million", "KDP", "cover brief", "book listing" | Book Publisher (`03`) | Brand Bible v1.2, existing book files, prior book passes |
 | "course", "syllabus", "lesson" | Course Architect (`04`) | (Currently paused — confirm with user before unpausing) |
-| "bio", "link in bio", "landing page", "funnel", "email", "CTA" | Funnel Builder (`05`) | Brand Bible, Content Diagnosis, prior funnel files |
-| "weekly numbers", "review this week", "what worked", "what's performing" | Analytics (`06`) | Most recent weekly review, baseline in PROJECT_STATE |
+| "bio", "link in bio", "landing page", "funnel", "email", "CTA" | Funnel Builder (`05`) | Brand Bible v1.2, Content Diagnosis, prior funnel files |
+| "weekly numbers", "review this week", "what worked", "what's performing" | Analytics (`06`) | Most recent weekly review, Reels + Stories archive logs |
+| "story", "stories", "weekly stories", "recap story" | Stories (`07`) | Brand Bible v1.2 §14, latest Reel `_meta.md`, Stories archive log |
 | Ambiguous / "what's next" / "hey" | Project Lead (me, default) | Just PROJECT_STATE.md — then ask user to pick |
 
 ## When the user is ambiguous
@@ -76,6 +77,34 @@ Don't guess. Read PROJECT_STATE.md, then offer them the 2–3 most logical next 
 - Always save outputs to the path specified in the agent brief.
 - Always update PROJECT_STATE.md at the end.
 - Never touch the "Completed" or "Baseline numbers" sections of PROJECT_STATE.md unless the agent brief explicitly allows it.
+
+## Read discipline (token economy — non-negotiable)
+
+The session token budget grows linearly with what I read. As the project accumulates artifacts (Reels, weekly reviews, book passes, etc.), reading "all related files" turns into a tax on every session. To keep per-session reads roughly flat as the catalog grows, every agent obeys this:
+
+**Default reads per session:**
+- `CLAUDE.md`
+- `_Project Plan/PROJECT_STATE.md`
+- This file (`Agents/00 - How Agents Work.md`) when routing
+- The specific agent's brief (`Agents/0X - <Agent Name>.md`)
+- The brief's "Must-read before starting" list — and ONLY those files
+
+**Explicit catalog files (use these instead of reading the catalog itself):**
+- `02_Content/Reels/_archive-log.md` — one row per Reel. Read for cross-Reel pattern-matching. Do NOT open individual Reel folders.
+- `02_Content/Stories/_archive-log.md` — one row per Story. Same rule.
+- `06_Weekly Reviews/_index.md` (when it exists) — one row per week. Same rule.
+
+**Open an individual past artifact ONLY when:**
+- The user explicitly asks about it ("redo REEL-003").
+- A specific consistency check or comparison requires it.
+- The agent brief says to read it for the current task.
+
+**Do NOT, in normal sessions:**
+- Open the whole `Reels/` directory or read multiple Reel folders to "get context."
+- Re-read past weekly reviews unless the user asks.
+- Read the book chapters end-to-end if the request is about one section.
+
+If a session needs to violate this rule, name what it's reading and why. Default = stay narrow.
 
 ## Session closure protocol
 
@@ -115,9 +144,10 @@ If multiple unrelated changes happened, offer multiple commits instead of one gi
 
 ## The roster
 
-- **01 - Content Strategist** — picks topics, plans week, owns Brand Bible and Hook Library.
-- **02 - Reel Producer** — produces one full Reel package per session.
+- **01 - Content Strategist** — picks topics, plans week, owns Brand Bible.
+- **02 - Reel Producer** — produces one Reel package per session (shoot sheet + meta).
 - **03 - Book Publisher** — owns Tom's First Million end to end.
 - **04 - Course Architect** — paused. Revisit after content engine converts.
 - **05 - Funnel Builder** — bio, links, landing pages, CTAs, email.
 - **06 - Analytics** — weekly numbers review, feeds Content Strategist.
+- **07 - Stories** — produces 3–5 Stories per week. Repairs the funnel leak between Reels.

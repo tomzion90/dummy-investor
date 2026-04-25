@@ -1,37 +1,33 @@
 # Brand Bible — Dummy Investor
 
-**Version:** 1.0
+**Version:** 1.2 (DNA refactor based on competitive research)
 **Created:** 2026-04-25
 **Owner:** Content Strategist
-**Status:** Live. Every Reel, cover, caption, bio, and email must obey this document.
-
-This is the operating manual for the Dummy Investor brand. If something contradicts this file, the file wins. Update by editing here, not by drifting in execution.
+**Status:** Live. Every Reel, Story, cover, caption, bio, and email obeys this file. If something contradicts this, this file wins.
 
 ---
 
 ## 1. The brand in one sentence
 
-> **A calm, mature voice for adults who want to build wealth slowly — without panic, without gurus, without pretending investing is a personality.**
+> **Specific, calm, long-term-investing content for adults — math and named stories instead of hype, panic, or abstractions.**
 
-If a piece of content can't ladder up to that sentence, it doesn't ship.
+If a Reel can't ladder up to that, it doesn't ship.
 
-## 2. The brand promise
+## 2. The brand promise (revised v1.2)
 
-Three things the audience gets from us, every time:
+Three things the audience gets, every time:
 
-1. **Clarity over excitement.** We explain how money actually works. We don't sell adrenaline.
-2. **Patience as a skill.** We treat patience as the rare, learnable advantage it is — not as a personality trait.
-3. **Math, not magic.** Every claim we make is grounded in a number, a chart, or a historical fact the viewer can verify.
-
-What the audience does NOT get from us: hot takes, hype, FOMO, "secret" knowledge, guru posturing, get-rich frameworks, daily market commentary, panic about today's news.
+1. **Specificity over abstraction.** One real number, named person, year, or physical demonstration per Reel — in the spoken part, not just in the pinned comment. Never "money loses value over time." Always "$1 in 1970 buys 13¢ today."
+2. **Calm voice, consequential content.** The voice is steady. The math is heavy. Calm is the texture, not the message.
+3. **History, math, and named examples.** No tickers, hot takes, or guru flexes. Ronald Read (janitor, $8M) beats "anyone can invest."
 
 ## 3. The signature line
 
 > **Slow wealth > fast mistakes.**
 
-This is the through-line. Use it as a closing line in Reels when it lands. Don't overuse it — once every 4–6 Reels max.
+Use as a closing in a Reel once every 4–6 Reels. Don't burn it.
 
-Other approved brand lines (rotate, don't repeat):
+Other approved brand lines (rotate):
 
 - Most people don't lose because they invest. They lose because they quit.
 - The market rewards time, not timing.
@@ -42,205 +38,254 @@ Other approved brand lines (rotate, don't repeat):
 
 ## 4. Voice & tone
 
-### The voice is
+**Voice:** measured, adult, direct, warm but not cute. Confident, not loud. The teacher who has seen 30 years of cycles.
 
-- **Measured.** One idea per sentence. No run-ons. No "imagine if…" theater.
-- **Adult.** We assume the viewer is intelligent and has been around. We don't talk down. We don't dumb things down — we make them simple, which is different.
-- **Direct.** Short sentences. Active verbs. We say what we mean.
-- **Warm but not cute.** We're not anyone's best friend. We're the calm person at the table when everyone else is shouting about the market.
-- **Confident, not loud.** A teacher who has seen 30 years of cycles, not an influencer who just discovered the S&P 500.
+**NOT:** excited, conspiratorial, self-promotional, reactive, cynical, condescending.
 
-### The voice is NOT
-
-- Excited. No exclamation points except in rare, earned moments.
-- Conspiratorial. We never imply "they don't want you to know." Markets are not a conspiracy.
-- Self-promotional. We don't talk about how much we've made, how smart we are, or how everyone else is wrong.
-- Reactive. We do not chase today's headline.
-- Cynical. We're skeptical of hype, not of people.
-
-### Tone slider — by topic
+**Tone slider — by topic:**
 
 | Topic | Tone |
 |---|---|
-| Crashes, wars, scary news | Even calmer than usual. Almost flat. The contrast IS the message. |
-| Compound interest, growth math | Quiet awe. Let the numbers do the talking. |
-| Common mistakes / myths | Direct, slightly dry. Never mocking. |
-| Practical "how to start" | Patient, step-by-step, encouraging. |
-| Brand signature lines | Spoken slow. Pause before. Pause after. |
+| Crashes / scary news | Even calmer. Almost flat. The contrast IS the message. |
+| Compound math | Quiet awe. Let the numbers do the talking. |
+| Common mistakes | Direct, slightly dry. Never mocking. |
+| Practical "how to" | Patient, step-by-step, encouraging. |
+| Signature lines | Spoken slow. Pause before. Pause after. |
 
-## 5. The viewer
+**Calm voice ≠ flat content.** Brand Bible v1.1 mistake: assumed calm voice = brand. v1.2 fix: calm is a delivery rule. Substance is specificity. A flat Reel with a calm voice is still flat.
 
-### Primary persona — "The cautious adult"
+## 5. The viewer — "the cautious adult"
 
-- English-speaking. US and global English audience. (The creator is Israeli, but the product is English-only — the audience is anywhere people speak English about money: US, UK, Canada, Australia, English-speaking Europe, English-as-a-second-language professionals.)
-- 30–50 years old.
-- Has a job, maybe a family. Has some money but not a lot of margin.
-- Has thought about investing for years. Hasn't started, or started badly once.
-- Is allergic to finance influencers — sees through them instantly, but still scrolls past content because nothing else looks credible.
-- Lost trust somewhere: a "10x" guru, a friend's hot tip, crypto in 2021, a meme stock, a market scare.
-- Wants someone to explain things calmly, in adult language, without selling them anything for the first 5 minutes.
-- Will pay for a book or course only after months of trust. Not on the first impression.
+English-speaking, US/global. 30–50. Has a job, has some money, has thought about investing for years and either hasn't started or started badly. Allergic to finance influencers. Has been burned at least once (a guru, a hot tip, crypto 2021, a meme stock).
 
-### What they're really buying
+**They're buying:** permission to do something boring and consistent without feeling like they're missing the smart move. Our job is to make boring feel like the smart move — because it is.
 
-Not "investing tips." They're buying **permission to do something boring and consistent without feeling like they're missing the smart move.** Our job is to make boring feel like the smart move — because it is.
-
-### What kills the relationship instantly
-
-- Any whiff of "I made $X, you can too."
-- Panic covers (CRISIS, STOP, TOXIC).
-- Anything that sounds like a Telegram group.
-- Talking down ("here's how investing works, sweetie").
-- Pretending the news matters more than time.
+**Kills the relationship:** "I made $X." Panic covers. Pretending the news matters more than time. Talking down. Anything that feels like a Telegram group.
 
 ## 6. The 3 content pillars
 
-Every Reel must fit one of these. If it doesn't fit cleanly, it doesn't ship — or the pillar gets revised here first.
+**P1 — Mindset & Patience.** Why start, why stay. Cost of waiting, why crashes don't matter long-term, why most people quit, why news is noise.
 
-### Pillar 1 — Mindset & Patience
+**P2 — Mechanics.** How money actually works. Inflation, compounding, indices, ETFs, Rule of 72, what 90% of pros can't beat.
 
-The "why start, why stay" pillar. Covers: cost of waiting, why crashes don't matter long-term, why most people quit, why the news is noise, the value of consistency. Includes the brand's strongest emotional content — but emotion is delivered flat, not loud.
+**P3 — Action.** Do it. DCA, automate, $50 vs $5,000, opening the account, choosing the boring fund.
 
-Source pillars from Topic Pipeline: 1 (Why start), 4 (Fear management), 6 (Consistency & habits).
+**Rotation rule:** no more than 2 consecutive Reels from the same pillar. All 3 pillars across any 6 posts.
 
-### Pillar 2 — Mechanics
+## 7. The three rotating Reel formats (REPLACES universal template — v1.2 core)
 
-The "how money actually works" pillar. Covers: inflation, compounding, indices, ETFs, what you're buying when you buy a stock, why 90% of pros can't beat the index, the rule of 72. Math, charts, definitions. The pillar where we earn credibility.
+The old template was: HOOK → soft pivot → ENDING QUESTION on every single Reel. 30 Reels at the same emotional volume = monotony. Banned in v1.2. Use one of the three formats below. Across any 6 Reels, hit all three at least once.
 
-Source pillars from Topic Pipeline: 2 (How money works), 3 (Instruments explained).
+### Format A — Chart-led (Personal Finance Club style)
 
-### Pillar 3 — Action
+**Spine:** an actual chart IS the argument. Talking head appears late or not at all.
 
-The "do it" pillar. Covers: DCA, automate, the 80/20 of starting, why $50/month beats waiting for $5,000, opening the account, choosing the boring fund. Practical, low-friction, anti-perfectionism.
+**Structure:**
+- 0–3s: chart draws onto screen with overlay caption (a complete sentence).
+- 3–25s: voice walks one finger across the chart, naming what's there.
+- 25–35s: one specific number from the chart, said out loud.
+- 35–42s: closing statement (not a question) + CTA.
 
-Source pillars from Topic Pipeline: 5 (How to actually do it).
+**Best for:** inflation, market history, crash recoveries, S&P long-term, index vs stock-picking, "the market always recovers."
 
-### Rotation rule
+**Cover:** Style C (chart-as-hook).
 
-Do not produce more than 2 Reels in a row from the same pillar. The feed must show all 3 pillars across any 6 consecutive posts. This is what makes a profile visit feel coherent instead of random.
+### Format B — Demo-led (Humphrey Yang style)
 
-## 7. DO list
+**Spine:** a physical or visual demonstration. Stack of cash, household objects, a side-by-side prop.
 
-- **Open the cover with a number, a date, or a complete sentence.** Never a fragment.
-- **Open the spoken hook with a question or a promise** — and pay it off inside 8 seconds.
-- **Use B-roll, charts, or text-on-screen for the first 1 second** before the talking head appears, especially on non-follower reach.
-- **End every Reel with one explicit CTA.** Not three. One.
-- **Cite a number whenever possible.** "$100/month for 30 years = $349K at 10%" beats "a lot of money."
-- **Use historical evidence** (1929, 2000, 2008, 2020) when discussing fear. History is the brand's strongest argument.
-- **Speak in full sentences in subtitles.** Subtitle line 1 must be readable on its own.
-- **Sign off in the same emotional register you opened in.** Don't open calm and close hyped.
-- **Reuse signature lines deliberately**, not by accident. Plan which Reel gets which line.
+**Structure:**
+- 0–3s: the demo in motion. The prop appears.
+- 3–25s: the demo gets bigger / smaller / compared. Numbers narrated.
+- 25–35s: the punchline — what the demo actually means.
+- 35–42s: closing statement + CTA.
 
-## 8. DON'T list
+**Best for:** scale of compounding ("$1M in $100s = this big"), retirement targets, "$50/month → this," "$500K vs $5K early."
 
-- **No panic words on covers.** Banned: CRISIS, STOP, TOXIC, BAD NEWS, IT'S A LIE, WARNING, DANGER, COLLAPSE, ALERT, EMERGENCY. Also banned in spoken hooks unless we're explicitly debunking the word.
-- **No shocked-face thumbnails.** That template is dead for this brand. Reserve facial expressions for *after* the hook lands inside the Reel.
-- **No FOMO framing.** "Don't miss this" / "Before it's too late" / "While others are sleeping" — all banned.
+**Cover:** Style B (demo cover — peak moment of the demonstration).
+
+### Format C — Story-led
+
+**Spine:** ONE named real person, ONE specific outcome, ONE specific number. Not "most people." Not "investors." A person with a name and a year.
+
+**Structure:**
+- 0–3s: the name + the surprising outcome (Ronald Read, janitor, $8M; Anne Scheiber, $5K → $22M).
+- 3–25s: the boring story — what they did, for how long.
+- 25–35s: the math behind the result (the real return, the years).
+- 35–42s: what the viewer takes from it + CTA.
+
+**Best for:** brand-defining moments, "patience is the edge," signature-line Reels, anti-guru proof.
+
+**Cover:** Style A (number cover) OR a portrait/scene from the story.
+
+### How to pick a format for a topic
+
+If the topic IS a chart (inflation, market history) → Format A.
+If the topic is the SCALE of a number ($1M, retirement target) → Format B.
+If the topic is a BEHAVIOR (patience, consistency, panic-selling) → Format C.
+
+A topic that fits two formats: pick the one with the more concrete cover (chart > demo > story-portrait, in that order).
+
+## 8. DO list
+
+- Open with a number, a chart, a demonstration, or a named person — not "Most people..."
+- One specific number / year / person / demo per Reel, in the SPOKEN script, not just the pinned comment.
+- Show, don't describe. If you say "compound interest," show the curve. If you say "$1M," show the stack. If you say "Ronald Read," show his name on screen.
+- End with a STATEMENT that lands, then ONE CTA. Not a passive question.
+- Cite the source for every number (BLS, Schwab, Fidelity, the company's own reports). Internal note in the script.
+- Use historical evidence (1929, 1973, 2000, 2008, 2020) when discussing fear. History is the strongest argument.
+- First 1 second of the video is a chart, demo, or number — never a talking head.
+- Sign off in the same emotional register you opened in.
+- Reuse signature lines deliberately, max once per 4–6 Reels per line.
+
+## 9. DON'T list
+
+- **No panic words on covers.** Banned: CRISIS, STOP, TOXIC, BAD NEWS, IT'S A LIE, WARNING, DANGER, COLLAPSE, ALERT, EMERGENCY.
+- **No shocked-face thumbnails.** Faces never appear on Style A or C covers; on Style B (demo), only if the face is part of the demo.
+- **No FOMO framing of the bad kind.** "Don't miss this" / "Before it's too late" / "While others are sleeping" — banned.
 - **No guru posturing.** No "I made," "my portfolio," "what the rich do that you don't."
-- **No conspiracy framing.** No "they don't want you to know," "the truth about," "the system is rigged."
-- **No vague superlatives.** Replace "huge," "massive," "insane," "crazy," "unbelievable" with the actual number.
-- **No daily news reaction Reels.** We are not a news account.
-- **No stock picks.** Ever. We talk about indices, behavior, and history, not tickers.
-- **No "easy money" or "passive income" framing.** Investing is patient money, not passive money.
-- **No engagement bait.** No "comment YES if you agree," no "tag a friend who needs this." Earn the engagement with the content.
-- **No multi-link bios.** One link, one destination, until link taps are above zero consistently.
+- **No conspiracy framing.** No "they don't want you to know."
+- **No vague superlatives.** Replace "huge / massive / insane / crazy / unbelievable" with the actual number.
+- **No daily news reaction Reels.** History yes. Today's headline no.
+- **No stock picks.**
+- **No "easy money" / "passive income" framing.**
+- **No engagement bait.** No "comment YES if you agree." No "tag a friend who needs this."
+- **No multi-link bios.** One link only.
+- **No abstractions where a specific exists.** "Loses value slowly" is banned. "$1 in 1970 = 13¢" is required.
+- **No HOOK→PIVOT→QUESTION universal template.** Use one of the three formats.
+- **No passive endings.** Don't end with "Are you doing X or Y?" End with a statement.
 
-## 9. Forbidden words & phrases
+## 10. Forbidden words
 
-These never appear on covers or in opening hooks. They may appear *inside* a Reel only when explicitly being debunked, never as the brand's own framing.
+Same as v1.1. Never appear on covers or in opening hooks (only inside a Reel when explicitly being debunked).
 
-**Panic / drama words:** crisis, stop, toxic, bad news, it's a lie, warning, danger, collapse, alert, emergency, urgent, breaking, shocking, ceasefire, war (as a hook word — fine in context inside the Reel), nightmare, disaster.
+**Panic / drama:** crisis, stop, toxic, bad news, it's a lie, warning, danger, collapse, alert, emergency, urgent, breaking, shocking, nightmare, disaster.
 
-**Conspiracy / insider words:** secret, hidden, the truth about, they don't want you to know, what the rich know, what the banks won't tell you, exposed, exclusive, insider.
+**Conspiracy / insider:** secret, hidden, the truth about, they don't want you to know, what the rich know, exposed, exclusive, insider.
 
-**Hype / guru words:** get rich, 10x, millionaire by 30, passive income, easy money, financial freedom (as a slogan), guaranteed, never lose, can't miss, don't miss, last chance, before it's too late, life-changing, game-changer, hack, cheat code.
+**Hype / guru:** get rich, 10x, millionaire by 30, passive income, easy money, guaranteed, never lose, don't miss, last chance, life-changing, game-changer, hack, cheat code.
 
-**Vague superlatives** (replace with the actual number): huge, massive, insane, crazy, unbelievable, mind-blowing, ridiculous, jaw-dropping.
+**Vague superlatives:** huge, massive, insane, crazy, unbelievable, mind-blowing, ridiculous, jaw-dropping.
 
-If you find yourself reaching for one of these words, the hook is wrong. Rewrite it.
+If you reach for one, the hook is wrong. Rewrite it.
 
-## 10. Approved hook angles (link to Hook Library)
+## 11. Cover system (revised v1.2)
 
-Every Reel must use one of the patterns in `02_Content/Hook Library.md`. The approved categories are:
+Three cover styles. Each maps 1:1 to a Reel format. Rotate evenly.
 
-1. Number hook
-2. Chart-as-hook
-3. Reframe hook
-4. Inversion hook
-5. Myth-bust hook
-6. Counterintuitive hook
-7. Listicle hook
-8. Definition hook
-9. Signature-line hook
-10. Question hook
+### Style A — Number cover
 
-If a topic doesn't fit any of those 10, the topic isn't ready. Sharpen it or park it.
+- One BIG number, full-bleed. 4–6 word claim under or beside it.
+- Examples: **"$5,000 → $108,000"** (subline: "one deposit, age 25 → 65"). **"1 dollar in 1970 buys 13¢ today."** **"$8 million. Janitor. Vermont."**
+- No face.
+- Calm, low-saturation palette (off-white background, near-black text). Number = highest visual weight.
 
-## 11. Cover system (high-level — full spec lives in a separate file)
+### Style B — Demo cover
 
-Three approved cover styles for the next 30 days. No others.
+- A photo or render of the demonstration in its peak moment. The visual IS the hook.
+- Examples: a stack of $100 bills next to a person for scale. A handful of coins and a brick to compare retirement amounts. A glass jar of pasta = decades of DCA.
+- 3–6 word overlay caption.
+- Face allowed only if the face is *interacting* with the prop (holding it, pointing at it). No looking-shocked face.
+- Background context can be richer than Style A — the demo's natural color belongs.
 
-- **Style A — Single-number cover.** Big number + short claim. No face on cover. Example: "$100/month for 30 years = $349,000."
-- **Style B — Text-first cover.** Bold complete statement, muted background, small face in corner. Example: "Most people start investing too late. Here's why."
-- **Style C — Chart-as-hook cover.** Real S&P 500 (or other major index) / inflation / long-horizon chart as the visual. Short caption overlay. No face.
+### Style C — Chart-as-hook cover
 
-Rotate evenly across the three. Compare results after 6 Reels.
+- A real chart, full-bleed. 4–6 word overlay.
+- The chart line's direction matters. Ambiguous charts are banned — the visual must say "this is going up" or "this is going down" at thumbnail size.
+- Examples: S&P 500 since 1928, USD purchasing-power 1970–2025, "every crash on one chart" with red dots on each crash.
+- No face.
 
-The detailed cover spec (typography, color rules, face placement, file naming) is owned by the Reel Producer in a separate file. This Brand Bible only locks in the strategic constraints above.
+### Cover rules (all styles)
 
-## 12. CTA & bio rules
+- Test legibility at IG grid thumbnail size (~120 × 213 px) before approving.
+- Overlay caption is a complete sentence or a number — never a fragment ("WHEN MARKETS" / "MOST" — banned).
+- One overlay block, not two stacked.
+- File name: `REEL-###-cover-vN.png`.
 
-- **One link in the bio at any given time.** Not a link tree. Not "all my stuff." One thing the viewer is being pulled toward.
-- **Every Reel ends with one explicit verbal CTA** that names what's at the link. Not "link in bio" alone — "the free guide to starting in 30 minutes is in the link in bio."
-- **Bio is benefit-driven, not descriptive.** Not "long-term investor." Something the viewer wants.
-- **The Funnel Builder agent owns the exact bio text and the link destination.** This Brand Bible just locks the rules above.
+## 12. CTA & closing rhythm
 
-## 13. Posting cadence
+**One link in the bio at any time.** No link tree. The bio is benefit-driven, not descriptive. Funnel Builder agent owns the exact bio text.
 
-- Goal: **3 Reels per week**, not 5–7. We optimize for hit rate, not volume, until average views are above 250.
-- Stories: 2–4 per week, used to amplify the latest Reel and show the calm-adult voice in a lower-stakes format. Never panic Stories about news.
-- Carousels and other formats: paused until Reels are converting.
+**Every Reel ends with one explicit verbal CTA.** Names what's at the link.
 
-## 14. What success looks like (the next 30 days)
+**Closing rhythm rule (v1.2):** end with a STATEMENT, then the CTA. Not a passive question.
+- ✅ "That's what time does. Follow for more boring math that actually works."
+- ❌ "Are you giving your money the time it actually needs?"
 
-These are the targets. If we're not moving toward them, the Brand Bible isn't being executed — re-diagnose, don't blame the strategy.
+The passive question was the universal close on every old script. Banned in v1.2.
 
-- Average views per post: 80 → 250+
+## 13. Posting cadence (revised v1.2)
+
+- **3 Reels/week** (unchanged from v1.1).
+- **3–5 Stories/week** (NEW — fixes the funnel leak. 0 Stories per week was a leak; every new follower had nothing to come back to between Reels).
+- **1 Carousel/week** (NEW — for save-rate, similar to PFC. Carousel = static infographic with 5–8 slides).
+
+Owned by:
+- Reels — Reel Producer (Agent 02).
+- Stories — Stories agent (Agent 07).
+- Carousels — paused for now. Add to Reel Producer scope after Stories cadence is stable.
+
+## 14. Stories rules (NEW v1.2)
+
+The Stories agent (07) produces 3–5 Stories/week. Categories rotate:
+
+1. **Reel recap** — single chart or number from the latest Reel, captioned in one calm sentence.
+2. **Process / behind-the-scenes** — what we're reading, what surprised us in the data this week.
+3. **Question of the week** — one open question (not engagement-bait). "What was the cost of waiting for you?"
+4. **Brand-line moment** — one signature line, slow, no sales.
+
+**Forbidden in Stories:** panic, news reactions, daily commentary, polls about stock picks, anything not in the Brand Bible voice.
+
+Full agent brief: `Agents/07 - Stories.md`.
+
+## 15. Anti-pattern catalog (v1.2 — adds 5 rows)
+
+Every entry is a real mistake observed on the page or in this project. Each one names the rule that prevents recurrence.
+
+| # | Mistake | Rule | Section |
+|---|---|---|---|
+| 1 | Panic-coded cover words (CRISIS, STOP, TOXIC, CEASEFIRE) | Forbidden-words list. Never on covers or opening hooks. | §10 |
+| 2 | Shocked / worried face as dominant cover element | Faces never on Style A or C; on Style B only if interacting with the prop. | §11 |
+| 3 | Cover captions that are fragments (MOST / WHY DOWN BY) | Cover overlay = complete sentence or number. Never a fragment. | §11, §8 |
+| 4 | First frame = talking head. No pattern interrupt. | First 1 second = chart, demo, number, or name. Face appears later. | §8 |
+| 5 | Brand promise contradicted by execution | Every cover/hook checked against §1 / §2 / §8 / §9 before shipping. | §1, §8, §9 |
+| 6 | Bio with no clear CTA → 0 link taps | One link, benefit-driven, one explicit CTA per Reel. | §12 |
+| 7 | Multi-link bio | One link only until link taps consistent. | §12 |
+| 8 | No CTA in last 2 seconds | Every Reel ends with one CTA. | §12 |
+| 9 | Vague superlatives instead of numbers | Replace every superlative with the actual number. | §8, §10 |
+| 10 | Post got 5 views, never investigated | After post, check views at 24h. If 5x below 30-day avg → investigate within 48h. | New rule. Reel Producer brief. |
+| 11 | Daily news / war reaction Reels | Not a news account. History yes, today no. | §9 |
+| 12 | Stock picks | Banned. Indices, behavior, history only. | §9 |
+| 13 | Engagement bait ("comment YES", "tag a friend") | Earn engagement with content. | §9 |
+| 14 | "I made $X" / guru flex | Banned. | §9 (hype/guru words) |
+| 15 | Conspiracy framing | Banned. | §9, §10 |
+| 16 | Same-pillar Reels back-to-back | Max 2 consecutive from same pillar. All 3 pillars across any 6 posts. | §6 |
+| 17 | Same signature line in back-to-back Reels | Max once per 4–6 Reels per line. | §3 |
+| 18 | Volume over hit-rate (20 Reels/30 days, 0 broke 200) | 3 Reels/week max until avg views > 250. | §13 |
+| 19 | Reels shipped without naming the format used | Every Reel labeled with its format (A/B/C). Required for analytics pattern-matching. | §7. Reel Producer brief. |
+| 20 | Spoken hook doesn't pay off the cover within 8s | Cover hook + spoken hook must align inside 8 seconds. | §7, §11 |
+| **21** | **Abstractions where specifics exist ("loses value slowly")** | **Specificity > calm voice as primary pillar. One concrete number / year / person / demo per Reel, in the spoken part.** | **§2, §8** |
+| **22** | **Universal HOOK → PIVOT → QUESTION template on every Reel** | **Use one of the three rotating formats (A/B/C). No universal template. Across 6 Reels, all three formats appear.** | **§7** |
+| **23** | **Passive ending ("Are you doing X or Y?")** | **End with a statement that lands, then the CTA. No passive questions in the close.** | **§12** |
+| **24** | **Zero Stories/week — funnel leak** | **3–5 Stories/week. Stories agent (07) owns this.** | **§13, §14** |
+| **25** | **Specifics buried in pinned comment, not in the spoken script** | **If a number / example matters, it goes in the spoken part. Pinned comment is for elaboration only — never the load-bearing fact.** | **§2, §8** |
+
+The catalog grows. Every new mistake observed in a weekly review gets a numbered row.
+
+## 16. What success looks like (next 30 days targets)
+
+Same as v1.1:
+
+- Avg views per post: 80 → 250+
 - New followers: 0 → 30+
 - Profile visits: 21 → 100+
 - Link taps: 0 → 15+
 - One Reel breaking 1,000 views
 
-## 15. Anti-pattern catalog (the mistakes, locked out)
+If we're not moving toward these, re-diagnose, don't blame the strategy.
 
-Every entry below is a real mistake that was happening on the page through April 2026. Each one is paired with the rule that prevents it from recurring and the section of this Brand Bible (or another file) where the rule lives. If a Reel violates any of these, it does not ship.
+## 17. Change log
 
-| # | Mistake observed (Apr 24 diagnosis) | Rule that prevents recurrence | Lives in |
-|---|---|---|---|
-| 1 | Panic-coded cover words on a calm-brand account: CRISIS, STOP, CEASEFIRE, BAD NEWS, TOXIC, IT'S A LIE | Forbidden words list. Panic words never appear on covers or opening hooks. | §9 |
-| 2 | Shocked / worried face as the dominant cover element on nearly every Reel | Cover face rules. Faces never appear on Style A or Style C covers. On Style B, face is small and in the corner only. | §11 |
-| 3 | Cover captions that are fragments mid-sentence (MOST / WHY DOWN BY / WHEN MARKETS / EVERYTHING) | Cover hook must be a number, a date, or a complete sentence. Never a fragment. | §7 (DO list, item 1) + Hook Library |
-| 4 | First frame of the Reel is the talking head in the studio — no pattern interrupt | First 1 second must be B-roll, a chart, text-on-screen, or a number. The face appears after the hook lands. | §7 (DO list, item 3) |
-| 5 | Brand promise (calm, mature, anti-hype) contradicted by execution (panic covers, shocked faces, FOMO captions) | Every cover and hook is checked against the Brand Promise (§2) and the DO/DON'T list (§7–§8) before shipping. If it contradicts the brand, it doesn't ship — full stop. | §2, §7, §8 |
-| 6 | Bio with no clear CTA → 21 profile visits, 0 link taps in 30 days | One link in bio. Benefit-driven copy. One explicit verbal CTA at the end of every Reel that names what's at the link. | §12 |
-| 7 | Multi-link bio / link tree of "all my stuff" | One link only until link taps are consistently above zero. | §12 |
-| 8 | Last 2 seconds of Reels have no explicit CTA pointing to the bio link | Every Reel ends with one explicit CTA. Not three. One. | §7 (DO list, item 4) + §12 |
-| 9 | Vague superlatives substituting for actual numbers ("huge difference", "massive opportunity") | Replace every superlative with the real number. Forbidden words §9 lists the worst offenders. | §7 (DO list, item 5) + §9 |
-| 10 | One Reel got 5 views — likely copyright / flag / broken upload — was never investigated | After every post, check views at 24h. If a post is more than 5x below the 30-day average, investigate music rights, content flags, and upload integrity within 48h. (Reel Producer owns the check — escalate to Analytics if a pattern emerges.) | New rule, lives here. Reel Producer brief should reference. |
-| 11 | Daily news / war reaction Reels diluting the long-term brand | We are not a news account. No daily news reaction Reels. History (1929, 2000, 2008, 2020) is fine — today's headline is not. | §8 |
-| 12 | Stock pick mentions or implied recommendations | No stock picks. Ever. We talk indices, behavior, and history — never tickers. | §8 |
-| 13 | Engagement-bait prompts ("comment YES if you agree", "tag a friend") | No engagement bait. Earn engagement with content. | §8 |
-| 14 | "I made $X" or "my portfolio" guru-posturing language | No flex hooks. Forbidden patterns list in Hook Library. | §8 + Hook Library kill list |
-| 15 | Conspiracy framing ("they don't want you to know", "the truth about") | No conspiracy framing. Markets are not a conspiracy. | §8 + §9 |
-| 16 | Reels produced in a row from the same content pillar — feed looks like a single rant | Rotation rule: no more than 2 consecutive Reels from the same pillar. All 3 pillars must appear across any 6 consecutive posts. | §6 |
-| 17 | Same signature line used in back-to-back Reels until it loses weight | One signature line per Reel. Maximum once every 4–6 Reels per line. Plan in advance which Reel gets which line. | §3 + Hook Library Pattern 9 |
-| 18 | Posting volume optimized over hit rate (20 Reels in 30 days, none broke 200 views) | 3 Reels per week max, until average views are above 250. Quality and pattern-testing over volume. | §13 |
-| 19 | Reels shipped without naming which hook pattern was used → no learning loop | The Reel Producer must label every Reel with the hook pattern it uses (one of the 10 in Hook Library). Without the label, we can't pattern-match what's working. | New rule, lives here. Reel Producer brief should reference. |
-| 20 | Spoken hook does not pay off the cover hook within 8 seconds (cover promises one thing, video delivers another) → retention collapses | Cover hook and spoken hook must align. The spoken hook must pay off the cover within 8 seconds. If they don't align, the Reel is rewritten before shipping. | Hook Library — opening explainer + every pattern's structure |
-
-If a new mistake is observed in a future weekly review (Analytics agent), it gets added here as the next numbered row, with its prevention rule. The catalog grows; the brand sharpens.
-
-## 16. Change log
-
-- **v1.0 (2026-04-25)** — Initial version. Locks brand promise, voice, viewer persona, 3 pillars, DO/DON'T list, forbidden words, cover system constraints, posting cadence. Sources: `Content Diagnosis - Apr 24.md`, `Topic Pipeline.md`, `PROJECT_STATE.md`.
-- **v1.1 (2026-04-25)** — English-only correction. Removed Hebrew forbidden-words list and Hebrew cover examples. Repositioned viewer persona from "Israeli" to "English-speaking, US/global" — the creator is Israeli but the product is English. Added §15 Anti-Pattern Catalog: a numbered list of every concrete mistake from the Apr 24 diagnosis paired with the rule that prevents recurrence. Added two new operational rules (post-publish view check at 24h, hook-pattern labeling on every Reel) that didn't have a prior home.
+- **v1.0** (2026-04-25) — Initial. Brand promise, voice, viewer, 3 pillars, DO/DON'T, forbidden words, cover system, posting cadence.
+- **v1.1** (2026-04-25) — English-only correction. Anti-pattern catalog (20 rows). Locked in panic-cover and fragment-caption fixes from Apr 24 diagnosis.
+- **v1.2** (2026-04-25) — DNA refactor based on competitive research (Personal Finance Club, Humphrey Yang, Vivian Tu, Schwab/Bookmap examples). Structural fix: **specificity > calm voice as primary pillar.** Three rotating formats (Chart-led / Demo-led / Story-led) replace the universal HOOK→PIVOT→QUESTION template. Cover styles re-aligned 1:1 with formats. Closing rhythm rule (statement, not passive question). Stories cadence added (3–5/week, owned by Agent 07). Carousel cadence added (1/week, paused). 5 new anti-pattern rows (#21–25): abstractions banned, universal template banned, passive endings banned, zero-Stories banned, specifics-buried-in-pinned-comment banned.
