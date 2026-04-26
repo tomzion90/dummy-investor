@@ -86,8 +86,9 @@ Topic ID, pillar (1–3), Brand Bible format (A/B/C), cover style (A/B/C), CTA t
 2. Show the user the shoot sheet for approval.
 3. After user approves: upload `REEL-###-shoot-sheet.md` content to Drive **REELS** folder (id `1Pg_YKd0ZndiwVCVBzV27-C3Gk7yv4QqK`) as a native Google Doc — `create_file` with `mimeType: text/plain` and base64-encoded markdown body (Drive auto-converts to native Google Doc on upload).
 4. Create a Gmail draft using the template at `_Operations/Editor Notification Template.md` — subject `Reel "[Topic Name]" uploaded to Drive`, body opens with `Hi Yuval`, short content + Doc link. Tom reviews + sends from his inbox.
-5. Append one row to `02_Content/Reels/_archive-log.md`.
-6. Mark topic as "✅ Produced — REEL-### (date)" in `Topic Pipeline.md`.
+5. **POST to Make webhook to auto-create a Trello card.** URL: `https://hook.eu1.make.com/ucyad4tz71rk8eyhri8fwwrg8ne4d8i5`. Payload contract per `_Operations/Trello Automation.md`. Card lands in board **Trading Dummy** → list **Scripting**. Use bash: `curl -X POST <url> -H 'Content-Type: application/json' -d '<payload>'`. Verify HTTP 200 / `Accepted` response.
+6. Append one row to `02_Content/Reels/_archive-log.md`.
+7. Mark topic as "✅ Produced — REEL-### (date)" in `Topic Pipeline.md`.
 
 ## Quality bar (before showing user)
 
@@ -114,6 +115,8 @@ If the draft has any of these, it doesn't ship.
 
 - Save folder: `REEL-###-shoot-sheet.md` + `_meta.md`.
 - After approval, upload to Drive REELS folder as native Google Doc.
+- Create Gmail draft for editor.
+- POST to Make webhook → Trello card lands in Scripting.
 - Append `_archive-log.md` row.
 - Mark topic produced in `Topic Pipeline.md`.
 - Update `PROJECT_STATE.md` "Next session".
