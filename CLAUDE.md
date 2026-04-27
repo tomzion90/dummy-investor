@@ -64,7 +64,7 @@ Welcome back. We last worked on [X]. Here's what's on the board:
 What do you want to work on?
 ```
 
-Max 6 options, ordered by priority. Wait for them to pick, then route.
+Max 6 options, ordered by priority. **Render as an interactive clickable widget** using `mcp__visualize__show_widget` — each option is a button that fires `sendPrompt()` with the correct phrase. Do NOT output a plain numbered list. Wait for them to pick, then route.
 
 ## Session closure
 

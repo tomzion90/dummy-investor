@@ -1,7 +1,7 @@
 # Project State
 
-**Last updated:** 2026-04-26
-**Updated by:** Trello/Make automation finished and live. Approved Reels now auto-create cards in Trello → Trading Dummy → Scripting via webhook. Back to content priorities.
+**Last updated:** 2026-04-27
+**Updated by:** Interactive session menu added. CLAUDE.md updated. Ready for first Reel under DNA v2.
 
 ## Operating rules (read every session)
 
@@ -64,6 +64,7 @@ No paid ads until organic is converting.
 - **Editor notification template + email draft flow** (2026-04-25): added `_Operations/Editor Notification Template.md` locking the subject lines (`Reel "[name]" uploaded to Drive` / `Story uploaded to Drive`) and bodies (open with `Hi Yuval`, short, Doc link). Reel Producer (02) and Stories (07) briefs updated to include "create Gmail draft after upload" as step 4 of the approval-then-save flow. Gmail MCP only DRAFTS — Tom sends from his inbox. The existing GitHub push-email automation stays in place as a second channel (audit trail).
 - **Gmail draft pipeline verified end-to-end** (2026-04-25): Gmail connector connected (account: `yutomshazion@gmail.com`). Two test drafts created — one for a Reel, one for a Story — using the locked template. Tom confirmed both appear in Gmail Drafts folder. Pipeline ready: future Reels/Stories will auto-generate drafts after Drive upload, Tom reviews + sends.
 - **Pending manual cleanup** (2026-04-25): two test files still sit in Drive — `TEST — DNA v2 pipeline check (REELS)` and `TEST — DNA v2 pipeline check (STORIES)`. Drive MCP has no delete tool. Tom deletes manually next time he's in Drive (right-click → Move to trash).
+- **Interactive session menu live** (2026-04-27): replaced plain numbered list with a clickable widget (`mcp__visualize__show_widget`). Each menu option is a button that fires `sendPrompt()` directly. CLAUDE.md menu protocol updated to mandate widget format going forward. Confirmed rendering correctly in Cowork.
 - **Trello/Make automation LIVE** (2026-04-26): every approved Reel now auto-creates a Trello card. Stack: Make.com (free tier) bridges Cowork → Trello (no native Trello MCP exists). Webhook URL `https://hook.eu1.make.com/ucyad4tz71rk8eyhri8fwwrg8ne4d8i5`, scenario `Integration Trello` toggled ON. Card lands in board `Trading Dummy` → list `Scripting`, with default Label + Member auto-applied. End-to-end verified with `TEST-001` payload — webhook returned `HTTP/2 200 Accepted`, card appeared in Scripting in seconds, archived. Wired into Reel Producer brief (`Agents/02`) as step 5 of the approval-then-save flow (after Gmail draft, before archive log). Cowork sandbox allowlist for `*.make.com` confirmed working. Full op state in `_Operations/Trello Automation.md`. Open question deferred to first Stories week: should Stories agent (07) also fire Trello cards?
 
 ## Blocked
@@ -84,9 +85,9 @@ Targets for next 30 days: avg views 250+, new followers 30+, link taps 15+, one 
 
 ## Next session
 
-**Trello/Make automation is done.** Approved Reels now auto-create Trello cards in `Trading Dummy → Scripting` via webhook. Back to the three content priorities below.
+**Interactive session menu is live.** Every greeting now renders a clickable widget instead of a plain numbered list. CLAUDE.md updated.
 
-**DNA v2 is locked. Brand Bible v1.2 + Stories agent (07) + operating agreements + Trello bridge live + clean slate (REEL-001 deleted).**
+**DNA v2 is locked. Brand Bible v1.2 + Stories agent (07) + operating agreements + Trello bridge live + interactive menu live.**
 
 **Three options, in order of leverage:**
 
