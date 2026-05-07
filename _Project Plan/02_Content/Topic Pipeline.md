@@ -70,7 +70,7 @@ The pillar that converts "I get it" into "I did it."
 
 | # | Topic | Hook angle | Status |
 |---|---|---|---|
-| 5.1 | DCA in 60 seconds — why boring beats clever | Definition hook | NEW — priority |
+| 5.1 | DCA in 60 seconds — why boring beats clever | Definition hook | ✅ Produced — REEL-004 (2026-05-07, Chart-led Format A) |
 | 5.2 | The "invest automatically" trick that removes willpower | How-to hook | NEW — priority |
 | 5.3 | The 80/20 of starting: open the account, automate, forget | Listicle hook | NEW |
 | 5.4 | Your second-best fund beats your un-opened one | Reframe hook | NEW |
