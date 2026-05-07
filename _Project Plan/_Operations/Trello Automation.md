@@ -19,7 +19,7 @@ Stack: Make.com (free tier) bridges between us and Trello. We don't connect Trel
 
 ## How to fire a card from a Reel session
 
-After a Reel script is approved + uploaded to Drive + Gmail draft created (steps 1–4 of the Reel Producer approval-then-save flow), POST the contract payload to the webhook:
+After a Reel script is approved + uploaded to Drive + Gmail draft created (steps 1–4 of the Reel Producer approval-then-save flow), POST the contract payload to the webhook. **Use the exact field names below — wrong field names silently omit content from the card description.**
 
 ```bash
 curl -X POST 'https://hook.eu1.make.com/ucyad4tz71rk8eyhri8fwwrg8ne4d8i5' \

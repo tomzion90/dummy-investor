@@ -27,7 +27,7 @@ The "explain the world to me" pillar. Teaches the invisible forces.
 | # | Topic | Hook angle | Status |
 |---|---|---|---|
 | 2.1 | Inflation — why cash is the slowest way to lose money | Chart-as-hook | NEW — priority |
-| 2.2 | Compound interest — the math the rich learn at 25, the rest at 55 | Number hook | NEW — priority |
+| 2.2 | Compound interest — the math the rich learn at 25, the rest at 55 | Number hook | ✅ Produced — REEL-001 (2026-04-29, Anne Scheiber Story-led) |
 | 2.3 | Rule of 72 — the only compounding math you need | Number hook | NEW |
 | 2.4 | What $100 a month actually becomes over 30 years | ✅ Already produced (Topic #9) |
 | 2.5 | A 10% return isn't the point. Time is. | Reframe hook | NEW |
@@ -61,7 +61,7 @@ The pillar that makes existing followers feel anchored.
 | 4.7 | Why the market rewards patience, not panic | ✅ Already produced (Topic #10) |
 | 4.8 | What really happens when the market drops | ✅ Already produced (#27) |
 | 4.9 | When a loss is not actually a loss | ✅ Already produced (#28) |
-| 4.10 | Every crash in the last 50 years, on one chart | Chart-as-hook | NEW |
+| 4.10 | Every crash in the last 50 years, on one chart | Chart-as-hook | ✅ Produced — REEL-002 (2026-05-07, Chart-led Format A) |
 | 4.11 | The market always recovers — here's the proof | Chart-as-hook | NEW |
 
 ## Pillar 5 — How to actually do it (practical steps)

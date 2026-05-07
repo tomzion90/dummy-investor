@@ -51,34 +51,68 @@ Folder: `02_Content/Reels/REEL-###-short-slug/`
 
 Two files:
 
-### 1. `REEL-###-shoot-sheet.md` — the editor-facing document
+---
 
-The single document the human videographer/editor reads top-to-bottom and executes. Trim ruthlessly — keep what affects the shoot. Sections:
+### 1. `REEL-###-shoot-sheet.md` — the editor-facing document (v3 format — LOCKED)
 
-**Header:** topic, length (38–42s default), format (Reel 1080×1920 30fps English), Brand Bible format used (A/B/C).
+The reference template is REEL-001's v3 Drive doc (id `1gUgEvJtOXZ1qIvqrH1c3qsVwft6MGKanY0sS-RkmqiM`). Mirror it exactly.
 
-**SECTION A — For the editor**
-1. **Cover spec** — visual, colors, overlay text, no-face rule, file name.
-2. **Script with timing** — three blocks:
-   - HOOK (0–3s) — full statement / number / chart caption / name. No fragments.
-   - BODY — core idea, one turn, one specific number/year/person. Timing markers every ~5s.
-   - ENDING — closing statement (Brand Bible voice) + ONE CTA. Not a question.
-3. **On-screen captions** — word-by-word table with timestamps. First caption is a FULL statement.
-4. **B-roll & visuals** — required / nice-to-have / do-NOT-use.
-5. **Sound design** — music type, LUFS, SFX, fades.
-6. **Pacing** — length, voice speed (~2.6–2.8 wps), cut frequency (every 3–5s, not 1–2).
-7. **Caption styling** — font, weight, color, position.
-8. **Export** — resolution, fps, codec, bitrate, file name.
-9. **Editor's checklist** — binary brand-rule checks before delivering.
+**Header:** Reel number + title, Topic ID, Pillar, Format (A/B/C), Cover style, approximate length, spec line (1080×1920, 30fps, English).
 
-**SECTION B — For Tom (posting + verification)**
-10. **Numbers/sources to verify** before recording.
-11. **IG caption** (pre-fold ≤220 chars + extended) and hashtags.
-12. **After-posting** — 24h view check, etc.
+---
+
+#### SCRIPT SECTION
+
+Three blocks with stacked delivery lines — one phrase per line, blank line between thoughts (teleprompter style). No inline timing markers.
+
+**🎙️ HOOK** — full statement / number / chart caption / name. No fragments. No talking head opener.
+
+**🎙️ MAIN SCRIPT** — core idea with one specific number/year/person/demo woven into the spoken words. Stacked lines throughout.
+
+**🎙️ ENDING** — closing STATEMENT that lands + ONE CTA. Label the CTA type in the heading (e.g., `FOLLOW CTA — brand standard`). No passive questions.
+
+---
+
+#### EDITING SECTION
+
+Headed `# 🎬 EDITING`. Alternates `🎙️ AVATAR — ON SCREEN` blocks with `🎥 B-ROLL #N` blocks, in the order the editor executes them top-to-bottom.
+
+**🎙️ AVATAR block** — list the exact spoken lines the avatar delivers on camera before the next cut.
+
+**🎥 B-ROLL #N block** — four fields, in this order:
+1. `Trigger line:` — the exact spoken phrase that cues the B-roll cut (quoted)
+2. `Purpose:` — one-line description of what the B-roll communicates
+3. `Envato search:` — the exact search string for stock footage
+4. `Duration:` — e.g., `**1.5–2 sec**`
+
+---
+
+#### REMAINING BLOCKS
+
+After the EDITING section, in this order:
+
+**🎨 COVER** — visual description, overlay text (complete sentence or number), color palette, no-face rule confirmation, file name.
+
+**🎵 MUSIC** — 2–3 descriptor lines (genre, tempo, instrument, mood). No links.
+
+**🔊 SOUND EFFECTS** — per-cut SFX notes. Silence rule on the ending if applicable.
+
+**📌 PINNED COMMENT** — stacked lines, same brand voice as the script. Ends with one engagement question (the pinned comment is the one place a question is allowed).
+
+**📲 IG MAIN CAPTION** — two parts:
+- Pre-fold (≤220 chars) — opening lines that appear before "more"
+- Extended — the rest of the caption, full brand voice
+- Hashtags — one line, 6–8 tags
+
+**✅ FOR TOM (verify before recording)** — numbered list of every specific claim (names, numbers, dates, sources). Each item = one fact + source. Ends with the after-posting reminder (24h view check, log to archive).
+
+---
 
 ### 2. `_meta.md` — tracking only, not for the editor
 
-Topic ID, pillar (1–3), Brand Bible format (A/B/C), cover style (A/B/C), CTA type, brand-bible references, forbidden-words scan, quality-bar result, ship date, source verification, posted date, view counts at 24h/7d/30d, weekly review notes.
+Topic ID, pillar (1–6), Brand Bible format (A/B/C), cover style (A/B/C), CTA type, brand-bible references, forbidden-words scan result, quality-bar result, ship date, source verification status, posted date, view counts at 24h/7d/30d, weekly review notes.
+
+---
 
 ## Approval-then-save flow (locked agreement with user)
 
@@ -86,7 +120,23 @@ Topic ID, pillar (1–3), Brand Bible format (A/B/C), cover style (A/B/C), CTA t
 2. Show the user the shoot sheet for approval.
 3. After user approves: upload `REEL-###-shoot-sheet.md` content to Drive **REELS** folder (id `1Pg_YKd0ZndiwVCVBzV27-C3Gk7yv4QqK`) as a native Google Doc — `create_file` with `mimeType: text/plain` and base64-encoded markdown body (Drive auto-converts to native Google Doc on upload).
 4. Create a Gmail draft using the template at `_Operations/Editor Notification Template.md` — subject `Reel "[Topic Name]" uploaded to Drive`, body opens with `Hi Yuval`, short content + Doc link. Tom reviews + sends from his inbox.
-5. **POST to Make webhook to auto-create a Trello card.** URL: `https://hook.eu1.make.com/ucyad4tz71rk8eyhri8fwwrg8ne4d8i5`. Payload contract per `_Operations/Trello Automation.md`. Card lands in board **Trading Dummy** → list **Scripting**. Use bash: `curl -X POST <url> -H 'Content-Type: application/json' -d '<payload>'`. Verify HTTP 200 / `Accepted` response.
+5. **POST to Make webhook to auto-create a Trello card.** Card lands in board **Trading Dummy** → list **Scripting**. Use the exact curl below — wrong field names silently omit content from the card:
+
+```bash
+curl -X POST 'https://hook.eu1.make.com/ucyad4tz71rk8eyhri8fwwrg8ne4d8i5' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "reel_id": "REEL-###",
+    "title": "<topic title>",
+    "format": "Chart-led | Demo-led | Story-led",
+    "topic": "<one-word topic>",
+    "spoken_hook": "<first sentence of the script>",
+    "drive_link": "https://docs.google.com/document/d/<DRIVE_DOC_ID>",
+    "editor_draft_link": "https://mail.google.com/mail/u/0/#drafts/<DRAFT_ID>"
+  }'
+```
+
+Expect `HTTP 200 — Accepted`. Full contract docs in `_Operations/Trello Automation.md`.
 6. Append one row to `02_Content/Reels/_archive-log.md`.
 7. Mark topic as "✅ Produced — REEL-### (date)" in `Topic Pipeline.md`.
 
