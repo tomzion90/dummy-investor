@@ -12,7 +12,7 @@ The door-opening pillar. These are for first-time viewers who've never started.
 
 | # | Topic | Hook angle | Status |
 |---|---|---|---|
-| 1.1 | The real cost of waiting 10 years to start | Number hook — "waiting 10 years costs you $X" | NEW — priority |
+| 1.1 | The real cost of waiting 10 years to start | Number hook — "waiting 10 years costs you $X" | ✅ Produced — REEL-003 (2026-05-07, Demo-led Format B) |
 | 1.2 | "I don't have enough to start" is the most expensive lie | Myth-bust hook | NEW |
 | 1.3 | You don't become rich and then invest. You invest to become rich. | Reframe hook | NEW |
 | 1.4 | The biggest risk isn't investing. It's staying out. | Inversion hook | NEW |

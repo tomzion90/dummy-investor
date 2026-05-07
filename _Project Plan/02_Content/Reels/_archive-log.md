@@ -34,3 +34,4 @@ When a Reel is shipped:
 1. Append one row at the bottom. Don't reorder.
 2. Fill `Shipped` immediately. `Posted` and view columns get filled later, by Tom or by the Analytics agent during the weekly review.
 3. After the first weekly review that includes the Reel, write the one-line takeaway in `Notes` (e.g., "Best 7d views to date — chart cover validated."). Keep it terse.
+| REEL-003 | 1.1 The real cost of waiting 10 years | 1 | B (Demo-led) | B (Demo) | soft-brand follow | 2026-05-07 | TBD | — | — | — | Format B first use. Sara ($24K invested, 10yrs) beats Kevin ($72K invested, 30yrs) — $281K vs $244K at 65. Counterintuitive hook. Drive doc: 1n9HcGl2sU99RamRRR5Hnsn4d78aDXJ6s5QnTFqIP-bU |
